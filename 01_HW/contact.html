@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+  <h1> Contact </h1>
+  <table class="contact-table">
+
+    <thead>
+      <tr>
+        <th colspan="2">Send a Message</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Email:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Phone:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Subject:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Message:</td>
+        <td><textarea rows="5"></textarea></td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">
+          <button onclick="runalert('Message Sent')" ;>Send Message</button>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+
+
+</body>
+<script>
+  function runalert(msg) {
+    alert(msg);
+  }
+</script>
+
+</html>
