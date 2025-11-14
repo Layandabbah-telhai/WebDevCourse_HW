@@ -31,4 +31,15 @@ table thead th:first-child {
   font-weight: bold;           /* טקסט מודגש */
   font-size: 18px;             /* קצת יותר גדול */
 }
+.song-link {
+  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.song-link:hover {
+  color: red;      /* changes color on hover */
+  text-decoration: underline;
+}
+
 
