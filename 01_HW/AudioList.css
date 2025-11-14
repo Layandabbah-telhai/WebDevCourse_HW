@@ -1,4 +1,4 @@
-/* Page background + title */
+
 body {
   font-family: "Times New Roman", serif;
   background: #f5f5f5;
@@ -12,7 +12,7 @@ h1 {
   font-size: 32px;
 }
 
-/* Main table panel */
+
 .audio-table {
   margin: 0 auto;
   width: 95%;
@@ -22,16 +22,16 @@ h1 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.18);
 }
 
-/* Header row */
+
 .audio-table thead th {
-  background-color: #333333;   /* dark header */
+  background-color: #333333;   
   color: #ffffff;
   font-weight: bold;
   padding: 10px;
   border: 1px solid #555555;
 }
 
-/* Table body cells */
+
 .audio-table td {
   border: 1px solid #d3d3d3;
   padding: 16px;
@@ -40,13 +40,13 @@ h1 {
   background-color: #f7f7f7;
 }
 
-/* Narrow cover column */
+
 .audio-table th:first-child,
 .audio-table td:first-child {
   width: 110px;
 }
 
-/* Cover image style */
+
 .cover-img {
   height: auto;
   width: 100%;
@@ -56,10 +56,10 @@ h1 {
   margin: 0 auto;
 }
 
-/* Make audio player full and visible */
+
 .audio-table audio {
   width: 100% !important;
-  min-width: 250px;          /* ensures full player shows */
+  min-width: 250px;         
   border: 2px solid #26b14c;
   border-radius: 10px;
   padding: 3px;

@@ -26,10 +26,10 @@ table thead th:first-child {
   color: white;
 }
 .highlight-row {
-  background-color: #cce8ff;   /* תכלת בהיר */
-  color: #003366;              /* כחול כהה */
-  font-weight: bold;           /* טקסט מודגש */
-  font-size: 18px;             /* קצת יותר גדול */
+  background-color: #cce8ff;  
+  color: #003366;            
+  font-weight: bold;      
+  font-size: 18px;          
 }
 .song-link {
   
@@ -38,7 +38,7 @@ table thead th:first-child {
 }
 
 .song-link:hover {
-  color: red;      /* changes color on hover */
+  color: red;      
   text-decoration: underline;
 }
 

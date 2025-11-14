@@ -1,8 +1,7 @@
-/* Modern Luxury — no gold */
 
 body {
   font-family: "Times New Roman", serif;
-  background: #f2f2f2;        /* soft grey background */
+  background: #f2f2f2;       
   margin: 0;
   padding: 0;
 }
@@ -15,7 +14,7 @@ h1 {
   color: #222;
 }
 
-/* Main white card */
+
 .contact-table {
   margin: 30px auto;
   width: 480px;
@@ -24,22 +23,22 @@ h1 {
   background: #ffffff;
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12); /* soft deep shadow */
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12); 
   border: none;
 }
 
-/* Header */
+
 .contact-table thead th {
   font-size: 22px;
   padding: 18px;
-  background: #222;      /* elegant black */
-  color: #fff;           /* white text */
+  background: #222;     
+  color: #fff;           
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-/* Labels + cells */
+
 .contact-table td {
   padding: 14px;
   border-bottom: 1px solid #e6e6e6;
@@ -47,14 +46,14 @@ h1 {
   font-size: 16px;
 }
 
-/* Labels column */
+
 .contact-table td:first-child {
   width: 120px;
   font-weight: bold;
   color: #444;
 }
 
-/* Input fields */
+
 .contact-table input[type="text"],
 .contact-table textarea {
   width: 100%;
@@ -67,30 +66,30 @@ h1 {
   transition: all 0.25s ease;
 }
 
-/* Highlight when typing */
+
 .contact-table input[type="text"]:focus,
 .contact-table textarea:focus {
   background-color: #ffffff;
-  border-color: #777;            /* soft grey highlight */
+  border-color: #777;           
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   outline: none;
 }
 
-/* Remove last line */
+
 .contact-table tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* Button row */
+
 .contact-table tfoot td {
   text-align: center;
   background: #f7f7f7;
   padding: 20px;
 }
 
-/* Luxury Button */
+
 .contact-table button {
-  background: #333;          /* sleek dark button */
+  background: #333;         
   color: white;
   font-weight: bold;
   padding: 12px 26px;
@@ -101,7 +100,7 @@ h1 {
   transition: 0.25s ease;
 }
 
-/* Hover effect */
+
 .contact-table button:hover {
-  background: #555;          /* lighter grey hover */
+  background: #555;          
 }
