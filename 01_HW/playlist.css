@@ -20,3 +20,15 @@ table thead th {
 table thead th:first-child {
   border-left: none;
 }
+.title-style {
+  text-align: center;
+  background-color: #1A97E7;
+  color: white;
+}
+.highlight-row {
+  background-color: #cce8ff;   /* תכלת בהיר */
+  color: #003366;              /* כחול כהה */
+  font-weight: bold;           /* טקסט מודגש */
+  font-size: 18px;             /* קצת יותר גדול */
+}
+
